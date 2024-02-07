@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,Chrome 121.0.0.0,,,07-02-2024 10:52:28,07-02-2024 10:52:49,21.361s,PASSED
+,,,,,,,
+Test Cases/Search Product,Chrome 121.0.0.0,,,07-02-2024 10:52:28,07-02-2024 10:52:49,20.926s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,07-02-2024 10:52:29,07-02-2024 10:52:32,3.180s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/"")",Chrome 121.0.0.0,,,07-02-2024 10:52:32,07-02-2024 10:52:37,5.150s,PASSED
+"setText(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/input_Search for_s""), ""Flying Ninja"")",Chrome 121.0.0.0,,,07-02-2024 10:52:37,07-02-2024 10:52:38,1.168s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/input_Search for_s""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,07-02-2024 10:52:38,07-02-2024 10:52:41,2.796s,PASSED
+"click(findTestObject(""Object Repository/Page_Search Results for Flying Ninja  Katalon Shop/a_CDATA(function()for(var gfunctiontypeof O_f8795c""))",Chrome 121.0.0.0,,,07-02-2024 10:52:41,07-02-2024 10:52:46,4.806s,PASSED
+delay(3),Chrome 121.0.0.0,,,07-02-2024 10:52:46,07-02-2024 10:52:49,3.067s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,07-02-2024 10:52:49,07-02-2024 10:52:49,0.280s,PASSED
